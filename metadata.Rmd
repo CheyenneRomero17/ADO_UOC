@@ -1,0 +1,16 @@
+---
+title: "metadates"
+author: "Cheyenne Romero Freijo"
+date: "2024-11-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+load("dades_tumors.Rda")
+colData(se)
+rowData(se)
+```
